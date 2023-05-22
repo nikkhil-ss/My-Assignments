@@ -1,6 +1,6 @@
 package generic;
-// public class generic_Assign_1 {
-    
+
+  //employee details  
 import java.util.HashSet;
 import java.util.Scanner;
 class Employee{
@@ -60,9 +60,6 @@ public class Assignment1 {
             Employee empObj=new Employee(empId,empName,empSalary,empDep);
             empSet.add(empObj);
         }
-
-//        boolean added = empSet.add((Employee) new Object());
-//        System.out.println("Object added: " + added);
 
         System.out.println("Employee Details are displayed here");
         for (Employee emp : empSet) {
