@@ -29,7 +29,8 @@ public class armstrong_Range {
     public static void main(String[] args) {
         int min=100;
         int max=999;
-        System.out.println("Armstrong numbers between 100 and 999 are: ");
+        System.out.println("Armstrong numbers");
+        System.out.println("From:"+min+" To:"+max);
         range armObj=new range();
         int[] resultArr=armObj.armstrong(min,max);
         for(int i=0;i<resultArr.length;i++){
