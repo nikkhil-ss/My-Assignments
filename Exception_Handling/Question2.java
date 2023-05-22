@@ -1,0 +1,23 @@
+package Exception_Handling;
+
+import java.util.Scanner;
+
+public class Question2 {
+    public static void main(String[] args) {
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the number: ");
+            int num1=sc.nextInt();
+            System.out.println("Enter divisor: ");
+            int num2=sc.nextInt();
+            try{
+                double ans=num1/num2;
+                System.out.println("Result"+ans);
+            }
+            catch (ArithmeticException e){
+                throw new UnsupportedOperationException("Divisor cn not be Zero");
+
+            }
+        }
+
+    }
+}
