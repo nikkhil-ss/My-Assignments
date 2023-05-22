@@ -1,5 +1,7 @@
+package basicDSA;
+
 class armstrong {
-    public boolean check(int num) {
+        public boolean check(int num) {
         int sum = 0;
         int temp = num;
         while(temp > 0) {
